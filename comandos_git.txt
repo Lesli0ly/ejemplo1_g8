@@ -1,0 +1,24 @@
+pwd -> donde estamos posicionados, entrega la ruta donde se encuentra posicionado dentro de la terminal
+clear -> limpia la terminal
+ls -> listar archivos 
+ls -l -> listar archivos con detalle
+ls -la -> mostrar archivos y carpetas con detalle, incluidos los archivos ocultos
+r read
+w write
+x execute
+cd -> cambiar de directorio
+cd path-> acceder desde ruta completa
+cd .. -> retroceder de directorio
+mkdir -> crear carpeta (make directory)
+touch nombre_archivo.extensión -> crear archivo
+cp nombre_archivo carpeta/ o path/ -> copiar un archivo dentro de un directorio
+git config --global user.name "Lesli0ly"
+git config --global user.email leslie.galindot@gmail.com
+
+echo "# ejemplo1_g8" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lesli0ly/ejemplo1_g8.git
+git push -u origin main
